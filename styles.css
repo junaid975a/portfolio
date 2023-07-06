@@ -31,6 +31,7 @@
     padding-top: 1rem;
 }
 
+
 .logo-container {
     display: flex;
     justify-content: baseline;
@@ -485,8 +486,8 @@ a{
 .skills-container {
     position: relative;
     display: flex;
-    padding: 5rem;
-    margin: 10rem auto;
+    padding: 4rem;
+    margin: 8rem auto;
     gap: 30px;
 }
 
@@ -582,7 +583,7 @@ a{
     text-transform: capitalize;
 }
   
-.contactus-form-container{
+.form-container{
     margin-top:25px;
     display:flex;
     align-items: center;
@@ -592,6 +593,8 @@ a{
 .form{
     display:flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
     gap:30px;
     width:70%;
     margin: 2rem 5rem;
@@ -677,11 +680,48 @@ footer{
 }
 
 
+@media (max-width: 800px){
+    .introduction {
+        flex-direction: column;
+    }
+    .footer-faded-text {
+        display: none;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .link-wrapper {
+        margin-bottom: 3rem;
+    }
 
+    .skills-container {
+        flex-direction: column;
+        padding: 2rem;
+        margin: 4rem auto;
+    }
+
+    .skill-container-left {
+        width: 100%;
+    }
+    .skill-container-right {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    
+
+    .skills-logo {
+        width: 30px;
+    }
+    .blob-style {
+        width: 90%;
+    }
+    
+}
 
 /* responsiveness */
-
-
 @media (max-width:1300px) {
     .page-header {
       padding-top: 30px;
