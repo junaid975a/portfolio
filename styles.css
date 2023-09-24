@@ -234,6 +234,7 @@ a {
     z-index: 1;
 }
 
+
 .btn-pink::before {
     content: "";
     position: absolute;
@@ -430,7 +431,7 @@ a {
 .project-card {
     width: 90%;
     height: 550px;
-    background-image: url(./images/projects/Project1.png);
+    /* background-image: url(./images/projects/Project4.png); */
     background-size: cover;
     position: relative;
     box-shadow: 0px 0px 40px #1f1f1f;
@@ -561,24 +562,24 @@ a {
 }
 
 .project-card:hover .project-content {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 #project1 {
-    background-image: url(./images/projects/Project1.png);
+    background-image: url(./images/projects/project_1.png);
 }
 
 #project2 {
-    background-image: url(./images/projects/Project2.png);
+    background-image: url(./images/projects/project_2.png);
     margin-left: 120px;
 }
 
 #project3 {
-    background-image: url(./images/projects/Project3.png);
+    background-image: url(./images/projects/Project_3.png);
 }
 
 #project4 {
-    background-image: url(./images/projects/Project4.png);
+    background-image: url(./images/projects/Project_4.png);
     margin-left: 120px;
 }
 
