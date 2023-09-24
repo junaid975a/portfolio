@@ -529,7 +529,7 @@ a {
 }
 
 .project-heading {
-    font-size: 50px;
+    font-size: 42px;
     font-weight: bold;
     line-height: 3rem;
 }
@@ -925,7 +925,7 @@ footer {
         width: 100%;
     }
 
-    .project-sub-heading {
+    .project-subHeading {
         width: 100%;
     }
 
