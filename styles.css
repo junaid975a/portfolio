@@ -535,7 +535,8 @@ a {
 }
 
 .project-subHeading {
-    width: 70%;
+    /* width: 50%; */
+    max-width: 480px;
     font-size: 16px;
     font-style: italic;
 }
@@ -562,7 +563,7 @@ a {
 }
 
 .project-card:hover .project-content {
-    transform: scale(1.02);
+    transform: scale(1.1);
 }
 
 #project1 {
