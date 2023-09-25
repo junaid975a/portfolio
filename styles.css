@@ -513,7 +513,7 @@ a {
 }
 
 .project-content-right {
-    right: 10%;
+    left: 20%;
 }
 
 
@@ -529,14 +529,14 @@ a {
 }
 
 .project-heading {
-    font-size: 42px;
+    font-size: 50px;
     font-weight: bold;
     line-height: 3rem;
 }
 
 .project-subHeading {
-    /* width: 50%; */
-    max-width: 480px;
+    width: 70%;
+    /* max-width: 480px; */
     font-size: 16px;
     font-style: italic;
 }
@@ -952,5 +952,19 @@ footer {
 
     .project-card:hover .project-content {
         scale: 0.55;
+    }
+}
+@media (max-width: 480px) {
+    .project-content {
+        left: -3rem;
+        top: -2rem;
+        right: -3rem;
+    }
+}
+@media (max-width: 280px) {
+    .project-content {
+        left: -4rem;
+        top: -3rem;
+        right: -4rem;
     }
 }
