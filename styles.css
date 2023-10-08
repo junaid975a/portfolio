@@ -25,6 +25,7 @@
     margin: 0 auto;
 }
 
+/* navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -583,6 +584,11 @@ a {
     background-image: url(./images/projects/project_4.png);
     margin-left: 120px;
 }
+
+#project5 {
+    background-image: url(./images/projects/project_5.jpg);
+}
+
 
 
 
