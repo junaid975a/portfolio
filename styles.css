@@ -854,10 +854,6 @@ footer {
         margin-bottom: 3rem;
     }
 
-    .skill-type {
-        padding: 24px;
-    }
-
     .skills-container {
         flex-direction: column;
         padding: 2rem;
