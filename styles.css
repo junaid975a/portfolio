@@ -700,14 +700,22 @@ a {
     font-size: 90px;
 }
 
-.skill-subHeading {
-    margin-top: 1rem;
-    width: 85%;
-    text-align: justify;
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
-
-.skill-subHeading p {
-    margin-top: 20px;
+.skill-type {
+    margin-top: 24px;
+}
+.skill-type h2 {
+    font-weight: 600;
+}
+.skill-type-desc {
+    display: flex;
+    flex-wrap: flex;
+    gap: 2.5rem;
 }
 
 /* contact-us section */
