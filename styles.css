@@ -712,6 +712,9 @@ a {
 .skill-type h2 {
     font-weight: 600;
 }
+.skill-type h5 {
+    font-weight: 500;
+}
 .skill-type-desc {
     display: flex;
     flex-wrap: flex;
@@ -849,6 +852,10 @@ footer {
 
     .link-wrapper {
         margin-bottom: 3rem;
+    }
+
+    .skill-type {
+        padding: 24px;
     }
 
     .skills-container {
