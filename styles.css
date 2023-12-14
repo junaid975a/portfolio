@@ -717,7 +717,7 @@ a {
 }
 .skill-type-desc {
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 
@@ -924,7 +924,9 @@ footer {
 
 
 @media (max-width: 480px) {
-
+    .skill-type {
+        padding-left: 18px;
+    }
 
     .skills-logo {
         width: 30px;
