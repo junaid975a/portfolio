@@ -931,7 +931,8 @@ footer {
     }
 
     .carousel-item {
-        padding: 0 0;
+        padding: 0;
+        padding-bottom: 7%;
     }
 
 }
