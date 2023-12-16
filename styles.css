@@ -918,6 +918,9 @@ footer {
         font-weight: bold;
     }
 
+    .carousel-item {
+        padding: 0 0;
+    }
 
 }
 
@@ -1017,9 +1020,9 @@ footer {
 }
 @media (max-width: 280px) {
     .project-content {
-        left: -4rem;
-        top: -3rem;
-        right: -4rem;
+        left: -5rem;
+        top: 0rem;
+        right: -6rem;
     }
 }
 
