@@ -755,6 +755,18 @@ a {
     width: 70%;
     margin: 2rem 5rem;
 }
+@media (max-width: 480px) {
+    .contactus-heading {
+        font-size: 3rem;
+    }
+    .contactus-sub-heading {
+        font-size: 2rem;
+    }
+    .form {
+        width: 90%;
+        margin: 0rem 0rem;
+    }
+}
 
 .formfield-container {
     width: 100%;
